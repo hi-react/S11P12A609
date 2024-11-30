@@ -20,8 +20,8 @@
 ### - Frontend
 
 ```jsx
-GOOGLE_PLACES_API_KEY=AIzaSyDushsIyoXh3N-MV2gDlhFlvPWYYbASgjg
-KAKAO_API_KEY=5ab9885b1d3961d30c9b4d9fdfa0d10e
+GOOGLE_PLACES_API_KEY=REMOVED
+KAKAO_API_KEY=REMOVED
 ```
 
 ### - Backend
@@ -44,15 +44,15 @@ KAKAO_API_KEY=5ab9885b1d3961d30c9b4d9fdfa0d10e
           # JWT 관련 환경 변수 추가
           - JWT_ACCESS_TOKEN_EXPIRY=30000000
           - JWT_REFRESH_TOKEN_EXPIRY=432000000
-          - JWT_ACCESS_TOKEN_SECRET=adfklasdjhlfakjsdhlfjkashdljkfahlsdkjfasdfasd
-          - JWT_REFRESH_TOKEN_SECRET=eirouqpiwerupqoiweuoiuXZiucxziuizzzxxccxvbdlkjkc
+          - JWT_ACCESS_TOKEN_SECRET=REMOVED
+          - JWT_REFRESH_TOKEN_SECRET=REMOVED
           # mail 관련 환경 변수 추가
           - MAIL_USERNAME=imnotdurnk.ssafy@gmail.com
           - MAIL_PASSWORD=prmodhkhbhfqtjhn
           - MAIL_HOST=smtp.gmail.com
           - MAIL_PORT=587
           # 음성파일분석 관련
-          - ETRI_ACCESS_KEY=f4d800dd-7109-45c5-96bb-91071ec8f964
+          - ETRI_ACCESS_KEY=REMOVED
           # DDL 타입
           - DDL_AUTO=validate
           # 로그 레벨
@@ -64,7 +64,7 @@ KAKAO_API_KEY=5ab9885b1d3961d30c9b4d9fdfa0d10e
           - LOG_LEVEL_USER=info
           - LOG_LEVEL_UTIL=info
           # 오디새이 관련 변수
-          - ODSAY_API_KEY=qIcH8bDy7Sv/GSo6MXjxzzV1OpPw8iedslihtGNEKMk
+          - ODSAY_API_KEY=REMOVED
     ```
     
 - application.yml
@@ -383,8 +383,8 @@ KAKAO_API_KEY=5ab9885b1d3961d30c9b4d9fdfa0d10e
             accesstoken: 1800000 #30분
             refreshtoken: 432000000 #5일
           secretkey:
-            accesstoken: adfklasdjhlfakjsdhlfjkashdljkfahlsdkjfasdfasd
-            refreshtoken: eirouqpiwerupqoiweuoiuXZiucxziuizzzxxccxvbdlkjkc
+            accesstoken: REMOVED
+            refreshtoken: REMOVED
         
         cloud:
           aws:
@@ -397,10 +397,10 @@ KAKAO_API_KEY=5ab9885b1d3961d30c9b4d9fdfa0d10e
               bucket: imnotdurnk
         
         etri:
-          accessKey: f4d800dd-7109-45c5-96bb-91071ec8f964
+          accessKey: REMOVED
         
         Odsay:
-          apikey: qIcH8bDy7Sv/GSo6MXjxzzV1OpPw8iedslihtGNEKMk
+          apikey: REMOVED
         
         logging:
           level:
@@ -918,15 +918,15 @@ KAKAO_API_KEY=5ab9885b1d3961d30c9b4d9fdfa0d10e
           # JWT 관련 환경 변수 추가
           - JWT_ACCESS_TOKEN_EXPIRY=30000000
           - JWT_REFRESH_TOKEN_EXPIRY=432000000
-          - JWT_ACCESS_TOKEN_SECRET=adfklasdjhlfakjsdhlfjkashdljkfahlsdkjfasdfasd
-          - JWT_REFRESH_TOKEN_SECRET=eirouqpiwerupqoiweuoiuXZiucxziuizzzxxccxvbdlkjkc
+          - JWT_ACCESS_TOKEN_SECRET=REMOVED
+          - JWT_REFRESH_TOKEN_SECRET=REMOVED
           # mail 관련 환경 변수 추가
           - MAIL_USERNAME=imnotdurnk.ssafy@gmail.com
           - MAIL_PASSWORD=prmodhkhbhfqtjhn
           - MAIL_HOST=smtp.gmail.com
           - MAIL_PORT=587
           # 음성파일분석 관련
-          - ETRI_ACCESS_KEY=f4d800dd-7109-45c5-96bb-91071ec8f964
+          - ETRI_ACCESS_KEY=REMOVED
           # DDL 타입
           - DDL_AUTO=validate
           # 로그 레벨
@@ -938,7 +938,7 @@ KAKAO_API_KEY=5ab9885b1d3961d30c9b4d9fdfa0d10e
           - LOG_LEVEL_USER=info
           - LOG_LEVEL_UTIL=info
           # 오디새이 관련 변수
-          - ODSAY_API_KEY=qIcH8bDy7Sv/GSo6MXjxzzV1OpPw8iedslihtGNEKMk
+          - ODSAY_API_KEY=REMOVED
         ports:
           - "8080:8080"
         volumes:
