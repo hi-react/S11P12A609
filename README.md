@@ -3,7 +3,7 @@
 # [1] About the Project
 
 ## **주제**
- <img src="exec/포팅%20매뉴얼%20a7bb50ead2de4d36b773437db35e8261/overview.png" width="800"/>
+<img width="800" alt="overview" src="https://github.com/user-attachments/assets/75b83940-db11-4657-b726-ade513e3529c" />
 
 개인의 음주 패턴을 관리해 **절제된 음주**와 **안전한 귀가**를 독려하기 위한 음주 습관 개선 서비스 
 
